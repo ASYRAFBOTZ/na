@@ -246,7 +246,7 @@ let tags = {
 ╭─────「 INFO BOT 」───
 │ Bot Name : *${conn.getName(conn.user.jid)}*
 │ Mention : @${m.sender.replace(/@.+/, '')}
-│ Version :  1.52.9.6
+│ Version :  0.01.1
 │ Battery : %battery
 │ Prefix : _*Multi*_
 │ Total Features : 2500+
@@ -358,7 +358,7 @@ let tags = {
 
                     mediaUrl: 'https://youtu.be/-tKVN2mAKRI',
 
-                    title: 'CREATED BY ZEVANO',
+                    title: 'CREATED BY ASYRAF',
 
                     body: ext.body,
 
