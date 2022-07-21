@@ -36,7 +36,28 @@ https://bit.ly/3c0WJz9
 https://bit.ly/3RN5IEx
 
 *• Info User*
-*`Nama :* *%name*
+*`Nama :* 
+%name
+*`Number :*
+${PhoneNumber('+' + who.replace('@s.whatsapp.net', '')).getNumber('international')}
+*`Registered :*
+${registered ? 'Yes': 'No'}
+*`Role :*
+%role
+*`Health :*
+%healt
+*`Money :*
+%money
+*`Limit :*
+%limit
+*`Level :*
+%level
+*`Exp :*
+%exp
+`Exp To Levelup :*
+%xp4levelup
+*`Total Exp :*
+%totalexp
 
 Jangan Klik Read More
 %readmore
