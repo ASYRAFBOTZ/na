@@ -6,14 +6,39 @@ let tags = {
 }
 const defaultMenu = {
   before: `
-Hello There
-Im NayLaBotz
+Hallo %name
+Saya MikAzu Botz
 
-UserName : %name
-Uptime : %uptime
-Total Features : 2500+
+*• Info Botz*
+*`Nama :* 
+MikAzu
+*`Owner :* 
+@+62 819-4694-5315
+*Uptime :*
+%uptime
+*`Total Fitur :*
+2500+
 
-Please Dont Click Readmore
+*• Info Owner*
+*`Nama :*
+Asyraf
+*`Nomor :*
+@+62 819-4694-5315
+*`Kelamin :*
+Laki-Laki
+*`Kegantengan :*
+1000000%🗿
+*`Hobby :*
+Belajar Coding, Recode Script
+*`YT :*
+https://bit.ly/3c0WJz9
+*`IG :*
+https://bit.ly/3RN5IEx
+
+*• Info User*
+*`Nama :* *%name*
+
+Jangan Klik Read More
 %readmore
 `.trimStart(),
   header: '️',
@@ -121,7 +146,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
     // conn.reply(m.chat, text.trim(), m)
-   conn.sendButton(m.chat, text.trim(), 'Click This', 'ALL MENU', '.allmenu', '☕ Owner', '.owner')
+   conn.sendButton(m.chat, text.trim(), 'Click This', 'KANJUT🗿', '.allmenu', 'OWNER GANZ😎', '.owner')
   } catch (e) {
     conn.reply(m.chat, 'Maaf, menu sedang error', m)
     throw e
