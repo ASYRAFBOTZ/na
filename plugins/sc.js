@@ -1,11 +1,12 @@
 let handler  = async (m, { conn, usedPrefix: _p }) => {
 let info = `
-*Hayo ngapain mau pasang ya?*
-*Nih w kasi*
-*https://github.com/zevoffc/nayla*
+SC :
+RECODE SENDIRI GBLK
+UDH GEDE MASIH MULUNG SC
+GBLK, JAN BOLOS² DEK, HDEH
 `.trim()
 
-conn.fakeReply(m.chat, info, '0@s.whatsapp.net', '*NIH KASIAN LU*', 'status@broadcast')
+conn.fakeReply(m.chat, info, '0@s.whatsapp.net', '*UDH GEDE MASIH MULUNG SC*', 'status@broadcast')
 }
 handler.help = ['sc']
 handler.tags = ['tutor']
